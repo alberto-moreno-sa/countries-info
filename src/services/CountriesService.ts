@@ -4,12 +4,15 @@ import { Requestor } from 'utils/Requestor';
 
 interface Country {
   name: string;
+  alpha2Code: string;
   alpha3Code: string;
-  capital: string;
-  flags: {
-    svg: string;
-    png: string;
-  };
+  callingCodes: string[];
+  flag: string;
+  region: string;
+  currencies: Array<{
+    code: string;
+    name: string;
+  }>;
 }
 
 export class CountriesService {

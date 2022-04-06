@@ -15,6 +15,7 @@ import {
   countriesReducer,
   countriesInitialState,
   setAllCountriesAction,
+  Country,
 } from './countries';
 import { createSelectorHook } from 'react-redux';
 import { CountriesService } from 'services';
@@ -116,7 +117,7 @@ export const makeStore = (context: Context): Store => {
 
 export const storeSetCountries = async (store: Store): Promise<void> => {
   const countries = await CountriesService.getCountries();
-  store.dispatch(setAllCountriesAction(countries));
+  store.dispatch(setAllCountriesAction(countries as Country[]));
 };
 
 // export an assembled wrapper
