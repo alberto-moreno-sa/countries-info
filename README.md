@@ -1,6 +1,8 @@
 # Cuntry Challenge
 
-[Online Site]()
+[Online Site](https://country-explorer-info.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/929fc8fe-71a6-467c-b90c-291f28ecdd59/deploy-status)](https://app.netlify.com/sites/country-explorer-info/deploys)
 
 # What is this?
 
