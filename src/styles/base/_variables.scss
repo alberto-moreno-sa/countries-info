@@ -1,0 +1,38 @@
+// Colors
+$dark-blue: hsl(209, 23%, 22%);
+$very-dark-blue: hsl(207, 26%, 17%);
+$very-dark-blue-text: hsl(200, 15%, 8%);
+$dark-gray: hsl(0, 0%, 52%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+
+$white: #ffffff;
+$border: #E4E4E4;
+
+$bl: #1B1D21;
+$purple: #6C5DD3;
+$purple-light: #CFC8FF;
+$text: #11142D;
+$gray-dark: #808191;
+$gray-light: #B2B3BD;
+$red: #FF754C;
+$pink: #FFA2C0;
+$pink-light: #FFEBF6;
+$yellow: #FFCE73;
+$yellow-light: #FFE2AC;
+$blue: #3F8CFF;
+$blue-light: #A0D7E7;
+$blue-dark: #0049C6;
+$border: #E4E4E4;
+$green: #7FBA7A;
+$link: #5F75EE;
+
+// Font Weights
+$font-size-light: 300; // Thin
+$font-size-medium: 600; // Medium
+$font-size-bold: 800; // Bold
+
+// Borders & Shadows
+$border-radius: 0.3rem;
+$box-shadow-light: 0 5px 10px -5px #ccc, 0 -1px 10px -5px #eee;
+$box-shadow-dark: 0 5px 10px -5px #222, 0 -1px 10px -5px #222;

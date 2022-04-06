@@ -1,0 +1,23 @@
+{
+  "general": {
+    "countries": "Countries"
+  },
+  "history": {
+    "title": "History",
+    "name": "Name",
+    "clicks": "Clicks"
+  },
+  "banner": {
+    "title": "Country Explorer",
+    "info": "Select any country to show the detail"
+  },
+  "detail": {
+    "title": "Detail",
+    "name": "Name:",
+    "dialCode": "Dial Code:",
+    "continent": "Continent",
+    "currencyCode": "Currency Code",
+    "noCurrencyInfo": "No currency Info",
+    "noDialCode": "no Dial Code available"
+  }
+}

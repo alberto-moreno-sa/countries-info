@@ -1,0 +1,25 @@
+.countryPreview {
+  display: flex;
+  align-items: center;
+
+  .flagContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:  50px;
+  }
+
+  .flag {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: (19/16);
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  font-display: fallback;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+body {
+  color: #001724;
+  font-family: 'Poppins', sans-serif;
+  font-display: fallback;
+  font-size: 14px;
+  margin: auto;
+}
